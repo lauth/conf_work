@@ -2,10 +2,10 @@ set nocompatible
 
 execute pathogen#infect()
 
-" show line number
-set number
-
 syntax on
+set background=dark
+let g:gruvbox_italic=1
+colorscheme gruvbox
 
 " enable filetype plugins
 filetype plugin on
@@ -49,3 +49,4 @@ let g:airline_right_alt_sep = ''
 let g:airline_symbols.branch = ''
 let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ''
+
